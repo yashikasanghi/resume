@@ -1,0 +1,393 @@
+
+body{
+  margin: 0%;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #EFFFFD;
+}
+
+h2{
+  color: #000000;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 28px;
+}
+
+.title{ 
+  position: relative;
+  color: #94B3FD;
+  font-family:  'Sacramento', cursive;
+  font-size: 450%;
+  margin: 0px;
+}
+
+.subtitle{
+  color: #94B3FD;
+  font-family:'Montserrat', sans-serif;
+  font-size: 1.7rem;
+  margin-top: 15px;
+}
+
+.top-container{
+position:relative;
+background-color: #EFFFFD;
+}
+
+.developer_image{
+  border-radius: 50%;
+  height: 330px;
+  width: 330px;
+  position: absolute;
+  border-width: 5px;
+  border-color: #D9D7F1 #D9D7F1 #D9D7F1 #FFFFFF;
+  border-style: dashed;
+}
+
+.ring{
+  margin-right: 10%;
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  background-color: #D9D7F1;
+  display: inline-block;
+}
+
+.top_cloud{
+  position: relative;
+  margin-left:30%;
+  height: 130px;
+  width: 250px;
+}
+
+.bottom_cloud{
+  position: absolute;
+  height: 100px;
+  width: 140px;
+}
+
+.Yashika_image{
+  border-radius: 50%;
+  width: 10.93rem;
+  border: dashed;
+  border-color: #94B3FD;
+  float: left;
+}
+
+.profession-summary{
+ float: right;
+ margin-left: 10px;
+ margin-bottom: 50px;
+ max-width: 82%;
+}
+
+.profile{
+  text-align: left;
+  max-width: 100%;
+  margin: 90px 0 0px 70px;
+  height: 198px;
+  width: 90%;
+  background-color: white;
+  border-radius: 3% 3% 3% 3%;
+  border: solid;
+  padding: 10px;
+}
+
+hr{
+  width: 80%;
+
+}
+
+.dotted{
+  max-width: 71px;
+  border-style: dotted none none;
+  color: #D9D7F1;
+  margin-top: 50px;
+  border-width: 10px;
+}
+
+.images{
+  width: 8rem;
+  float:left;
+}
+
+.skill-align{
+margin-top: 135px;
+}
+
+.skills{
+  width: 850px;
+  background-color: #D7E9F7;
+  border-radius: 11% 3% 0% 1%;
+  height: 31rem;
+  color: #FFFFFF;
+  display: flex;
+  float: right;
+  margin-right: 5px;
+}
+
+.skill-row{
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  height: 437px;
+  width: 661px;
+  border: solid;
+  margin: 25px 0px 0px 128px;
+  padding: 10px;
+  background-color: white;
+  color: #000000;
+}
+
+.skills-img{
+  float: left;
+}
+
+.skill-set{
+  padding: 25px;
+  max-width: 15%;
+  margin-left: 1rem;
+  background-color: #FFFFFF;
+  border-radius: 17%;
+  border: solid;
+}
+
+.skills-set-img{
+  border-radius: 3% 40%;
+  width: 10rem;
+  border: solid;
+  border-color: #94B3FD;
+  padding: 11px;
+  margin-bottom: 20px;
+}
+
+.skill-set-content{
+  color: #94B3FD;
+  margin-top: 19px;
+  line-height: 1;
+}
+
+.about-projects{
+  margin-top: 100px;
+ 
+
+}
+
+.project-img{
+  width: 83%;
+  height: 18rem;
+  border-radius: 10%;
+  margin-left: 150px;
+  border: solid;
+  border-color: #FDFF8F;
+  opacity: 0.9;
+}
+
+.about-prohead{
+  position: absolute;
+  margin: 245px 0px 0px 554px;
+  color: white;
+}
+
+h4{
+  margin: 0px;
+}
+
+.project1{
+  float: left;
+  max-width: 43%;
+  text-align: left;
+  background-color: #FFFFFF;
+  line-height: 1.8;
+  color: #000000;
+  margin: 65px 0px 10px 10px;
+  border-radius: 5%;
+  border: solid;
+  border-color: #000000;
+  padding: 25px;
+  height: 445px;
+}
+
+.project2{
+  float: right;
+  max-width: 43%;
+  text-align: left;
+  background-color: #FDFF8F;
+  margin: 65px 10px 10px 0px;
+  line-height: 1.8;
+  color:#000000;
+  border-radius: 5%;
+  border: solid;
+  border-color: #000000;
+  padding: 25px;
+  height: 445px;
+}
+
+.technology-img{
+  padding: 25px;
+  border-radius: 30%;
+  border: solid;
+  background-color: white;
+  margin-top: -47px;
+  margin: -50px 20px 0 -60px;
+}
+
+table{
+  width: 80%;
+  line-height: 1.4;
+  background-color: #FFFFFF;
+  border-radius: 40px;
+  border: dashed;
+  padding: 5px;
+}
+
+.trainings-img{
+  float: right;
+  padding: 25px;
+  border-radius: 30%;
+  border: solid;
+  background-color: white;
+  margin-top: -47px;
+  margin: -50px 20px 0 -60px;
+}
+
+.table-tools{
+  float: left;
+}
+
+.box-one{
+  max-height: 120px;
+  width: 150px;
+  background-color: #FFEBCC;
+  display: inline-block;
+  position: relative;
+  margin: 68px 4px 0 -156px;
+  padding: 25px 0px 15px 15px;
+  text-align: left;
+  border: solid;
+}
+
+.box-two{
+  max-height: 157px;
+  max-width: 150px;
+  background-color: #FFEBCC;
+  display: inline-block;
+  position: absolute;
+  margin: 16px 0px 0 -6px;
+  padding: 58px 0 15px 14px;
+  text-align: left;
+  border: solid;
+}
+
+.box-three{
+  max-height: 138px;
+  max-width: 150px;
+  background-color: #FFEBCC;
+  display: inline-block;
+  position: absolute;
+  margin: 45px 0 0px 160px;
+  padding: 30px 0px 14px 15px;
+  text-align: left;
+  border: solid;
+}
+
+.AWARDS-ACHIEVEMENTS{
+  text-align: center;
+  margin-top: 120px;
+}
+
+.education{
+  margin: 100px auto;
+}
+
+.stairs{
+  height: 120px;
+  width: 220px;
+  line-height: 1.4;
+  font-size: 14px;
+  padding: 5px 5px 0px 15px;
+  
+}
+
+.stair-one{
+  background-color: #ECFCFF;
+  display: inline-block;
+  position: relative;
+  margin: 295px 4px 0 -260px;
+  text-align: left;
+  border: solid;
+  border-color: black;
+}
+
+.stair-two{
+  background-color: #B2FCFF;
+  display: inline-block;
+  position: absolute;
+  margin: 168px 0px 0 -100px;
+  text-align: left;
+  border: solid;
+  border-color: black;
+}
+
+.stair-three{
+  background-color: #94DAFF;
+  display: inline-block;
+  position: absolute;
+  margin: 41px 0 0px 60px;
+  text-align: left;
+  border: solid;
+  border-color: black;
+}
+
+.personal-details{
+  height: 300px;
+  width: 900px;
+  background-color: #F4F9F9;
+  position: relative;
+  margin-left: 190px;
+  border: solid;
+  text-align: left;
+}
+
+.pd-top{
+  height: 50px;
+  width: 900px;
+  background-color: #94B3FD;
+  margin-top: -23px;
+}
+
+img.perinfo-img {
+  margin: 34px 20px 0 0;
+}
+
+.tools{
+  height: 250px;
+  width: 85%;
+  background-color: #D7E9F7;
+  position: relative;
+  margin: 1100px 0px 0px 80px;
+  padding: 10px;
+  border-radius: 2%;
+  border: solid;
+}
+
+.trainings{
+  height: 250px;
+  width: 85%;
+  background-color: #D7E9F7;
+  position: relative;
+  margin: 130px 0px 0px 80px;
+  padding: 10px;
+  border-radius: 2%;
+  border: solid;
+}
+
+.awards-img {
+  height: 275px;
+  width: 275px;
+}
+
+.education-img {
+  height: 200px;
+  width: 200px;
+  margin: 50px 0px 0 50px;
+}
+
